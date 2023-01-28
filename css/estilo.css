@@ -10,6 +10,8 @@ body{
 	width: 100%;
 	min-height: 100vh;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+    padding: 0;
 }
 
 #home {
@@ -31,6 +33,11 @@ footer p a{
 	margin: 0.5rem 1rem;
 }
 
+h2, h3{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 h4, h5, h6{
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -38,5 +45,17 @@ h4, h5, h6{
 
 .form-group{
 	color: #fff;
+}
+
+@media only screen and (max-width: 90rem) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) {
+    body {
+      width: 100%;
+    }
 }
 
